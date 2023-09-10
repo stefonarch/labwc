@@ -316,7 +316,7 @@ Therefore, where multiple objects of the same kind are required (for example
 *<mouse><scrollFactor>*
 	Set scroll factor. Default is 1.0.
 
-*<mouse><context name=""><mousebind button="" direction=""><action>*
+*<mouse><context name=""><mousebind button="" direction="" action=""><action>*
 	Multiple *<mousebind>* can exist within one *<context>*; and multiple
 	*<action>* can exist within one *<mousebind>*
 
@@ -344,7 +344,7 @@ Therefore, where multiple objects of the same kind are required (for example
 	- Desktop: The desktop background, where no windows are present.
 	- Root: A synonym for Desktop (for compatibility).
 
-	Supported mouse *buttons* are:
+	Supported mouse *buttons* can be combined with modifiers and are:
 	- Left
 	- Middle
 	- Right

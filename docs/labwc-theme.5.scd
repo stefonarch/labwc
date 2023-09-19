@@ -111,7 +111,7 @@ Note: The button elements (i.e. window.[in]active.button.\*) support defining
 different types of buttons individually by inserting the type ("menu", "iconify", "max"
 and "close") after the button node. For example:
 window.active.button.iconify.unpressed.image.color
-This syntax is not not documented on the openbox.org wiki, but is supported by
+This syntax is not documented on the openbox.org wiki, but is supported by
 openbox and is used by many popular themes. For the sake of brevity, these
 elements are not listed here, but are supported.
 
@@ -204,7 +204,7 @@ The handle is the window edge decoration at the bottom of the window.
 
 # DERIVED DIMENSIONS
 
-The window title bar height is equal to the vertical font extents of the title.
+The window title bar height is equal to the vertical font extents of the title and twice the padding.height
 Padding will be added to this later.
 
 # SEE ALSO
